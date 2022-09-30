@@ -1,4 +1,5 @@
-span = document.querySelector('span')
+"use strict"
+const span = document.querySelector('span')
 span.addEventListener('click', () => {
     span.textContent = span.textContent == 'O' ? 'X' : 'O'
 })

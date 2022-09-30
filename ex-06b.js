@@ -1,3 +1,4 @@
+"use strict"
 let grid = {
     attribute: {
         id: 'morpion' 
