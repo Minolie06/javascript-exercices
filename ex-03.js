@@ -1,6 +1,6 @@
 "use strict"
-span = document.querySelector('span')
-hover = document.querySelector('span')
-// span.addEventListener('hover', () => {
-
-// })
+const span = document.querySelector('span')
+const div = document.querySelector('div')
+span.addEventListener('mouseenter', () => {
+    div.style.backgroundColor = 'lightgrey'
+})
